@@ -5,9 +5,7 @@ var Apps = {
 
 	attachEventListeners: function() {
 
-		$(document).on('mouseover', 'header', function() {
-			$(this).hide().delay(2000).fadeIn(3000);
-		});
+		
 
 	}
 }
